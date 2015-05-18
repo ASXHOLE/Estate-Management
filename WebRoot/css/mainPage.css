@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+body{
+		  background:url("../img/Login_bg.jpg");
+		  background-size:1400px 768px;
+	  }
+#menu {margin-top: 10px}
+.slogan{font-size:40px; font-weight: bold; color: #FFFFFF;height: 20px}
+.btn {width: 200px; height: 60px;font-size: 20px}

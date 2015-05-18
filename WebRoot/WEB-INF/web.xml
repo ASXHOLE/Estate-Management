@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<display-name></display-name>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>mainServlet</servlet-name>
+		<servlet-class>com.servlet.mainServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mainServlet</servlet-name>
+		<url-pattern>/mainServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>loginServlet</servlet-name>
+		<servlet-class>com.servlet.loginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>VisitServlet</servlet-name>
+		<servlet-class>com.servlet.VisitServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>BlackListServlet</servlet-name>
+		<servlet-class>com.servlet.BlackListServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>buildingInfoServlet</servlet-name>
+		<servlet-class>com.servlet.buildingInfoServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>VisitServlet</servlet-name>
+		<url-pattern>/VisitServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BlackListServlet</servlet-name>
+		<url-pattern>/BlackListServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>loginServlet</servlet-name>
+		<url-pattern>/loginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>buildingInfoServlet</servlet-name>
+		<url-pattern>/buildingInfoServlet</url-pattern>
+	</servlet-mapping>
+	
+	<!-- ////////////////////////////////////////////////////////////////////////////////////////////-->
+	 <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>feesServlet</servlet-name>
+    <servlet-class>com.servlet.feesServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>chargServlet</servlet-name>
+    <servlet-class>com.servlet.chargServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>checkServlet</servlet-name>
+    <servlet-class>com.servlet.checkServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelServlet</servlet-name>
+    <servlet-class>com.servlet.DelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>feeModule</servlet-name>
+    <servlet-class>com.servlet.feeModule</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>feesServlet</servlet-name>
+    <url-pattern>/feesServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>chargServlet</servlet-name>
+    <url-pattern>/chargServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>checkServlet</servlet-name>
+    <url-pattern>/checkServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelServlet</servlet-name>
+    <url-pattern>/DelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>feeModule</servlet-name>
+    <url-pattern>/feeModule</url-pattern>
+  </servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
